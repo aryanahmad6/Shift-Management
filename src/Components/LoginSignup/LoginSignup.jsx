@@ -27,7 +27,7 @@ export const LoginSignup = () => {
       </div>
       <div className="input">
         <img src={password_icon} alt="" className="password" />
-        <input type="password"placeholder="Password"/>
+        <input type="password" placeholder="Password"/>
       </div>
       </div>
       {action==="sign up"?<div></div>:<div className="forgot-password">Lost password? <span>Click Here</span></div>}
